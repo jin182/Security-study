@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/USER/Documents/study/보안공부/int_overfloow"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _rules_explanation, symObjAddr: 0x0, symBinAddr: 0x1000038F0, symSize: 0x48 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _rules_explanation, symObjAddr: 0x0, symBinAddr: 0x1000038F0, symSize: 0x48 }
+  - { offsetInCU: 0x62, offset: 0x62, size: 0x8, addend: 0x0, symName: _check_decision, symObjAddr: 0x48, symBinAddr: 0x100003938, symSize: 0x48 }
+  - { offsetInCU: 0x8A, offset: 0x8A, size: 0x8, addend: 0x0, symName: _human_turn, symObjAddr: 0x90, symBinAddr: 0x100003980, symSize: 0x110 }
+  - { offsetInCU: 0xCE, offset: 0xCE, size: 0x8, addend: 0x0, symName: _computer_turn, symObjAddr: 0x1A0, symBinAddr: 0x100003A90, symSize: 0x128 }
+  - { offsetInCU: 0x100, offset: 0x100, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2C8, symBinAddr: 0x100003BB8, symSize: 0x1BC }
+...
